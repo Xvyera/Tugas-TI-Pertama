@@ -1,0 +1,35 @@
+package main
+
+            import "fmt"
+            
+            func main() {
+            
+                // deklarasi variabel
+                var nama string = "Qheyla Zavyera Valendro"
+                var umur int = 17
+                var alamat string = "Jalan Alternatif Bogor"
+                var berkacamata bool = true
+                var minuskiri float32 = 2.00
+                var minuskanan float32 = 2.25
+                var ukuransepatu int = 35
+                var tinggibadan float4 = 150
+                var beratbadan float4 = 45.3
+            
+                // proses
+                var totalminus float32 = minuskiri + minuskanan
+                var totaltinggiberat float4 = tinggibadan + beratbadan
+            
+                // output
+                fmt.Println(totalminus)
+                fmt.Println(totaltinggiberat)
+                fmt.Println(nama)
+                fmt.Println(umur)
+                fmt.Println(alamat)
+                fmt.Println(berkacamata)
+                fmt.Println(minuskiri)
+                fmt.Println(minuskanan)
+                fmt.Println(ukuransepatu)
+                fmt.Println(tinggibadan)
+                fmt.Println(beratbadan)
+            
+            }
